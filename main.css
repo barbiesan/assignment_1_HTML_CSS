@@ -1,0 +1,136 @@
+body, html{
+height: 100%;
+margin: 0px;
+}
+
+h1 {
+    font-family: "BIZ UDMincho", sans-serif;
+    font-size: large;
+}
+body{
+    background-color: lavender;
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav ul{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding: 20px;
+}
+nav {
+    display: block;
+    color: rgb(234, 0, 255);
+}
+
+nav a{
+    color: rgb(0, 187, 255);
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: whitesmoke;
+}
+
+.hero-image{
+    background-image: url(../IMAGES/MACEDONIA.jpeg);
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+
+#profile-image{
+    width: 100px;
+    border: 5px solid black;
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display: inline;
+}
+#profile-details{
+    margin-right: 10px;
+    text-align: center;
+}
+.side-articles, .main-articles{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.side-articles{
+    background-color: skyblue;
+    text-align: center;
+}
+
+.main-articles{
+    background-color: lavenderblush;
+}
+form{
+    margin-top: 20px;
+}
+textarea input{
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+footer{
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    margin-top:0px;
+    color: azure;
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top:0px;
+    height: 17px;
+    border:0px;
+    box-shadow: insert 0px 12px -12px whitesmoke
+}
